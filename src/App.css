@@ -1,0 +1,29 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.chatScrollBar::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+.chatScrollBar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.chatScrollBar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.chatScrollBar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
